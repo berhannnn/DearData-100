@@ -18,6 +18,7 @@ void setup () {
   fill(200);
   textAlign(CENTER, CENTER);
   bg = loadImage("sunnyday.jpg");
+  println("Length procrasinatedHours: " + procrasinatedHours.length);
 }
 
 void draw() {

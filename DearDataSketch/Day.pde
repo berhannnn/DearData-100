@@ -1,7 +1,18 @@
 class Day {
-  
-  Day(int i, int j, int k, int l, int m){
-    println(i);
+
+  float procrasinatedHours;
+  float sleptHours;
+  float revisionHours;
+  float gymHours;
+  float travelHours;
+
+  Day(float gaming, float sleeping, float studying, float gym, float travel) {
+
+    procrasinatedHours = gaming;
+    sleptHours = sleeping;
+    revisionHours = studying;
+    gymHours = gym;
+    travelHours = travel;
+
   }
-  
 }
