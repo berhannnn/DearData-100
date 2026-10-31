@@ -19,6 +19,10 @@ void setup () {
   textAlign(CENTER, CENTER);
   bg = loadImage("sunnyday.jpg");
   println("Length procrasinatedHours: " + procrasinatedHours.length);
+  println("Length sleptHours: " + sleptHours.length);
+  println("Length revisionHours: " + revisionHours.length);
+  println("Length gymHours: " + gymHours.length);
+  println("Length travelHours: " + travelHours.length);
 }
 
 void draw() {
